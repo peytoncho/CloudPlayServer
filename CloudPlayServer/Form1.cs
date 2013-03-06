@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net;
+using System.Net.Sockets;
 
 namespace CloudPlayServer
 {
@@ -27,6 +29,20 @@ namespace CloudPlayServer
 
         }
 
+        private void startServer()
+        {
+            try
+            {
+                
 
-    }
-}
+            }
+
+            catch (Exception exp)
+            {
+
+            }
+        }
+   
+    
+    }// class
+}// namespace
